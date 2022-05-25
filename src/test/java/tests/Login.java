@@ -3,7 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 import pages.Common;
 
-public class Demo extends BaseTest {
+public class Login extends BaseTest {
 
     @Test
     public void openPigu(){

@@ -1,9 +1,8 @@
 package tests;
 
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import utils.Driver;
+import utilities.Driver;
 
 public class BaseTest {
     @BeforeMethod
