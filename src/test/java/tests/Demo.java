@@ -1,11 +1,13 @@
 package tests;
 
 import org.testng.annotations.Test;
-import utils.Driver;
+import pages.Common;
 
 public class Demo extends BaseTest {
+
     @Test
     public void openPigu(){
-        Driver.getDriver().get("https://www.pigu.lt/lt/");
+        Common.openLink("https://www.pigu.lt/lt/");
+
     }
 }
